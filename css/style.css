@@ -1,0 +1,123 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:ital,wght@0,400;0,900;1,700&family=Nunito:ital,wght@0,400;0,900;1,700&family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Raleway:ital,wght@0,700;1,400;1,900&family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Taviraj:regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+
+body{
+font-family:"Lato";
+font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+color: #424551;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px;/* отступы с краев*/
+}
+.why {
+  padding: 40px 0px 40px 0px;
+}
+.why__title {
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+}
+
+.why__subtitle {
+font-weight: 900;
+font-size: 46px;
+line-height: 1.3;
+color: #1E212C;
+margin: 0px 0px 40px 0px;
+}
+.why__item{
+margin: 0px 0px 12px 0px;
+padding: 0px 0px 0px 30px;     
+}
+
+.why__item::before{
+    content:"";
+    background: url("../img/icon/check.svg") 0 0/16px no-repeat;
+    width: 16px;
+    height:  16px;
+    display: inline-block;
+    margin: 0px 16px 0px -30px;
+}
+.why__item:last-child{
+    margin-bottom:0;
+}
+.why__list{
+    margin: 0px 0px 48px 0px;
+}
+.why__button {
+    margin: 0px 0px 0px 0px;
+}
+.why__link {
+background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+border-radius: 4px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+padding: 20px 32px 20px 32px;
+font-size: 14px;
+line-height: 3.14;
+font-weight: 900;
+
+}
+.maple {
+font-family:"Taviraj";
+font-weight: 500;
+font-size: 36px;
+line-height:1.1;
+letter-spacing: 0.02em;
+color: #333333;
+
+}
+.maple__item-1::after{
+content:"";
+height: 3px;
+width: 20%;
+background: #000;
+display: block;
+margin: 5px 0px 0px 0px;
+}
+
+.maple__item-2::after{
+content:"";
+height: 3px;
+width: 20%;
+background: #000;
+display:inline-block;
+margin: 0px 0px 6px 0px;
+}
+
+
+.maple__item-3{
+padding: 0px 0px 0px 20px;
+}
+.maple__item-3::before{
+content:"";
+height: 40px;
+width: 3px;
+background: #000;
+display:inline-block;
+margin: 0px 0px 0px -20px;
+}
+
+.maple__item-4::before{
+content:"";
+height:3px;
+width: 30%;
+background: #000;
+display:inline-block;
+margin: 0px 0px 10px -20px;
+}
+.maple__item-1_indent{
+    margin: 0px 0px 20px 0px;
+}
+.maple__item-1_indent:last-child{
+    margin-bottom: 0;
+}
